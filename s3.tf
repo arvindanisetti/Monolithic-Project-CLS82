@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "mustafa77.flm77.moonobucket"
+  bucket = "satya.flm77.monolithic.pj"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
@@ -26,7 +26,7 @@ status = "Enabled"
 terraform {
 backend "s3" {
 region = "us-east-1"
-bucket = "mustafa77.flm77.moonobucket"
+bucket = "satya.flm77.monolithic.pj"
 key = "prod/terraform.tfstate"
 }
 }
